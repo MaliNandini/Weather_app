@@ -2,7 +2,7 @@ import axios from "axios";
 import "./App.css";
 import { useEffect, useState } from "react";
 import "../src/Components/Style.css";
-import RefComp from "./Components/RefComp";
+
 // import { obj } from "./Components/data";
 
 function App() {
@@ -91,7 +91,7 @@ function App() {
         </div>
         </>}
       </div>
-      <RefComp/>
+      
     </div>
   );
 }
